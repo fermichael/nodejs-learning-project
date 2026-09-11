@@ -26,48 +26,6 @@ O projeto possui um servidor HTTP nativo que disponibiliza uma lista fixa de fil
 - HTTP
 - JSON
 
-## Como executar
-
-Instale as dependências:
-
-```bash
-npm install
-```
-
-Para iniciar a API de filmes:
-
-```bash
-node webservice/server.js
-```
-
-A API estará disponível em:
-
-```text
-http://localhost:3001/
-```
-
-Para executar a aplicação web estática:
-
-```bash
-npm start
-```
-
-A aplicação estará disponível em:
-
-```text
-http://localhost:3000/
-```
-
-## Endpoint
-
-### Listar filmes
-
-```http
-GET /
-```
-
-A resposta contém filmes com os campos `id`, `title`, `genre` e `synopsis`.
-
 ## Estrutura do projeto
 
 ```text
