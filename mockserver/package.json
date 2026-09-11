@@ -1,0 +1,21 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "Servidor simulado para prática do protocolo de comunicação HTTP(Arquitetura de rede/Client Server)",
+  "license": "ISC",
+  "author": "Michael",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve -p 3000 ./dist",
+    "start1": "npx serve -p 3001 ./webservice"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "serve": "^14.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
